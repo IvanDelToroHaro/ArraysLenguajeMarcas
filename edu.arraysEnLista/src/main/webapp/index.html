@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form onsubmit="return false">
+		<label><input type="number" name="escribir" id="texto"></label>
+		<input type="submit" onclick="escribirLista()">
+		<button type="button" onclick="ordenarLista()">Ordenar</button>
+		<button type="button" onclick="borrarUltimo()">Borrar Ultimo</button>
+		<select name="menu" id="seleccionable">
+			<option disabled selected value="0">Filtrar</option>
+			<option value="1">Mayor a menor</option>
+			<option value="2">Menor a mayor</option>
+		</select>
+		<button type="button" onclick="FiltrarXUsu()">Borrar Ultimo</button>
+
+	</form>
+	<ol id="lista"></ol>
+
+	<script src="script.js">
+		
+	</script>
+</body>
+</html>
